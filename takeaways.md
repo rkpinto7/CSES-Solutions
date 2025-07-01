@@ -1,9 +1,9 @@
 ## Takeaways
 
-### Ju1-01-2025
-- Solved the next 5 problems, they were fun
+### Jul-01-2025
+- Solved the next 6 problems, they were fun
 
-- I thought I'd need to pre-log and brute force the knights problem, but there's a nice formula by noting that knights can attack in 2x3 rectangles
+- **[Two Knights]** I thought I'd need to pre-log and brute force the knights problem, but there's a nice formula by noting that knights can attack in 2x3 rectangles
 
 - **[Two Sets]** I mostly played around with the numbers for two sets, noting numbers of type 3, 7, .. bascially all 1 less than multiples of 4 work and coded that but got wrong answer that even exact multiples of 4 work.
 
@@ -12,6 +12,8 @@
 - This ends up being find solutions for $n \cdot (n+1) \equiv 0 \space (\text{mod 4})$, find which families of numbers satisfy it in $n \text{ mod } 4 \equiv 0$ ,  $n \text{ mod } 4 \equiv 1$, $n \text{ mod } 4 \equiv 2$ and  $n \text{ mod } 4 \equiv 3$, for those that do, investigate how the nums $1,2,..N$ can be divided into buckets (again by family of mod 4) for the final answer
 
 - **[Bit Strings]** I was able to solve the binary exponentiation myself without having to look up the algorithm by drawing the tree myself for recursion
+
+-  **[Trailing Zeros]** I remember doing things like this back in 2014, I drew out and recalled the exact way, see how to obtain 2's and 5's in the factorial. 2's are abundant, 5 determines everything and we can do $⌊\frac{N}{5}⌋ + ⌊\frac{N}{5^{2}}⌋ + ⌊\frac{N}{5^{3}}⌋ + ...  $
 
 - **[Coin Piles]**  This is just linear algebra to solve $[a, b] - x[2, 1] - y[1, 2] = [0, 0]$, more like making sure x, y are whole numbers (0,1,2,..)
 
