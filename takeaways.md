@@ -1,5 +1,11 @@
 ## Takeaways
 
+### Sep-19-2025
+
+**[Knight Moves Grid]** Inspired to solve this from reading https://lnkd.in/p/eVACNeGY It's a simple BFS problem from the source make the moves instead of doing it for every point backwards. BFS ensures a sort of diffusion from that point and everyone will get the lowest value. A similar thing could have been done with DFS and replacements if a smaller value is found, but there could be multiple rewrities making this inefficient. Also added in a quick optimization of `grid[nj][ni] = grid[ni][nj];` for good measure.
+
+
+ 
 ### Jul-02-2025
 
 - Focused on the daily leetcode problem for the day [3333. Find the Original Typed String II](https://leetcode.com/problems/find-the-original-typed-string-ii/) and doe into generating functions. Apparently this is a basic introductory problem into this, and there are some CSES problems on this
